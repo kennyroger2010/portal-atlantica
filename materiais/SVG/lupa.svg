@@ -1,0 +1,12 @@
+<svg id="lupa" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="23" viewBox="0 0 23 23">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_2068" data-name="Retângulo 2068" width="23" height="23" transform="translate(-6166 -6119)" fill="#707070" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_de_máscara_2741" data-name="Grupo de máscara 2741" transform="translate(6166 6119)" clip-path="url(#clip-path)">
+    <g id="Camada_1" data-name="Camada 1" transform="translate(-6165.731 -6119)">
+      <path id="Caminho_1344" data-name="Caminho 1344" d="M0,8.581A8.925,8.925,0,0,1,17.722,7.463a8.7,8.7,0,0,1-1.861,7.071c-.143.179-.082.261.045.387q3.063,3.061,6.122,6.128c.118.118.232.239.354.353.1.093.117.171.01.277-.419.411-.835.825-1.245,1.246-.153.158-.233.034-.326-.06l-3.958-3.951c-.853-.852-1.709-1.7-2.557-2.558-.126-.127-.211-.16-.376-.048A8.52,8.52,0,0,1,8.277,17.83a8.731,8.731,0,0,1-7.046-4.382A8.87,8.87,0,0,1,0,8.581Zm8.929,8.187A7.83,7.83,0,1,0,1.1,8.94,7.806,7.806,0,0,0,8.929,16.768Z" fill="#707070"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg id="icon-compra-concluida" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_1402" data-name="Retângulo 1402" width="80" height="80" fill="#ef7e37" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_de_máscara_99" data-name="Grupo de máscara 99" clip-path="url(#clip-path)">
+    <g id="b">
+      <g id="c">
+        <g id="Grupo_2767" data-name="Grupo 2767" transform="translate(11.611 19.16)">
+          <path id="União_1" data-name="União 1" d="M56.874,2.326a2.633,2.633,0,0,1-.191.273c-.109.121-.232.23-.342.354L17.9,41.4a.741.741,0,0,1-1.186.014Q8.5,33.206.3,25.014c-.4-.395-.4-.6,0-.969A22.3,22.3,0,0,0,2,22.34c.313-.342.5-.369.859-.014,2.879,2.92,5.8,5.813,8.689,8.719,1.733,1.73,3.479,3.449,5.2,5.211.409.422.614.367,1.009-.014Q35.706,18.274,53.667.32a.788.788,0,0,1,1.27,0L56.56,1.943c.109.109.205.246.327.383Z" fill="#ef7e37"/>
+        </g>
+        <path id="Caminho_890" data-name="Caminho 890" d="M40,2.163A37.837,37.837,0,1,1,2.163,40,37.877,37.877,0,0,1,40,2.163M40,0A40,40,0,1,0,80,40,40,40,0,0,0,40,0Z" fill="#ef7e37"/>
+      </g>
+    </g>
+  </g>
+</svg>

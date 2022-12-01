@@ -1,0 +1,21 @@
+<svg id="icone-em-processamento" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_83" data-name="Retângulo 83" width="80" height="80" transform="translate(2210 589)" fill="#ef7e37" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_de_máscara_22" data-name="Grupo de máscara 22" transform="translate(-2210 -589)" clip-path="url(#clip-path)">
+    <g id="Camada_1" data-name="Camada 1" transform="translate(2211.857 589)">
+      <g id="Grupo_57" data-name="Grupo 57">
+        <path id="Caminho_127" data-name="Caminho 127" d="M46.605,69.658A10.318,10.318,0,1,1,36.243,59.366,10.445,10.445,0,0,1,46.605,69.658Zm-3.947.056a6.372,6.372,0,1,0-6.382,6.342,6.283,6.283,0,0,0,6.382-6.342Z" fill="#ef7e37"/>
+        <path id="Caminho_128" data-name="Caminho 128" d="M67.883,60.446a9.333,9.333,0,1,1-9.249-9.372,9.276,9.276,0,0,1,9.249,9.372Zm-3.842-.03a5.492,5.492,0,1,0-5.5,5.481A5.545,5.545,0,0,0,64.041,60.415Z" fill="#ef7e37"/>
+        <path id="Caminho_129" data-name="Caminho 129" d="M67.828,46.6a8.46,8.46,0,1,1,8.458-8.441A8.583,8.583,0,0,1,67.828,46.6Zm4.515-8.5a4.516,4.516,0,1,0-4.5,4.552,4.421,4.421,0,0,0,4.5-4.552Z" fill="#ef7e37"/>
+        <path id="Caminho_130" data-name="Caminho 130" d="M58.523,8.4a7.478,7.478,0,1,1-7.45,7.505A7.412,7.412,0,0,1,58.523,8.4Zm.046,11.115a3.636,3.636,0,1,0-3.653-3.66A3.71,3.71,0,0,0,58.568,19.517Z" fill="#ef7e37"/>
+        <path id="Caminho_131" data-name="Caminho 131" d="M36.319,0A6.714,6.714,0,0,1,42.89,6.657a6.6,6.6,0,0,1-13.208-.066A6.717,6.717,0,0,1,36.319,0Zm-.051,3.945A2.583,2.583,0,0,0,33.627,6.62a2.659,2.659,0,0,0,5.318-.032A2.586,2.586,0,0,0,36.27,3.947Z" fill="#ef7e37"/>
+        <path id="Caminho_132" data-name="Caminho 132" d="M14.017,10.258A5.623,5.623,0,1,1,8.4,15.864a5.568,5.568,0,0,1,5.618-5.606ZM14,14.123a1.758,1.758,0,1,0,1.778,1.756A1.8,1.8,0,0,0,14,14.123Z" fill="#ef7e37"/>
+        <path id="Caminho_133" data-name="Caminho 133" d="M9.494,38.174a4.873,4.873,0,0,1-4.78,4.714A4.746,4.746,0,1,1,4.78,33.4,4.864,4.864,0,0,1,9.494,38.174Z" fill="#ef7e37"/>
+        <path id="Caminho_134" data-name="Caminho 134" d="M17.792,60.446a3.768,3.768,0,1,1-3.748-3.808,3.727,3.727,0,0,1,3.748,3.808Z" fill="#ef7e37"/>
+      </g>
+    </g>
+  </g>
+</svg>

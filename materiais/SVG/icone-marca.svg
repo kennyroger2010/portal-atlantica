@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58" height="58" viewBox="0 0 58 58">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_56" data-name="Retângulo 56" width="58" height="58" transform="translate(70 44)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_de_máscara_7" data-name="Grupo de máscara 7" transform="translate(-70 -44)" clip-path="url(#clip-path)">
+    <g id="Camada_1" data-name="Camada 1" transform="translate(70 44)">
+      <circle id="Elipse_2" data-name="Elipse 2" cx="29" cy="29" r="29" transform="translate(0 0)" fill="#fff"/>
+      <path id="Caminho_1" data-name="Caminho 1" d="M28.424,1.01A27.48,27.48,0,0,1,48.335,47.518C52.5,28.527,42.085,10.408,26.68,3.529a26.185,26.185,0,0,0-4.99-1.647,26.2,26.2,0,0,1,6.734-.872M6.574,45.048A27.425,27.425,0,0,1,21.3,1.979c2.035,7.945,1.356,17.344-2.422,26.4A42.82,42.82,0,0,1,6.574,45.048Z" transform="translate(0.63 0.623)" fill="#1b824c" fill-rule="evenodd"/>
+      <path id="Caminho_2" data-name="Caminho 2" d="M31.963,54.337A27.529,27.529,0,0,1,8.951,51.43c4.457-3.924,7.122-5.91,10.9-15.115S24.7,16.161,16.75,1.579C35.79,16.452,36.662,37.381,33.8,47.991s-1.066,4.36-1.841,6.346" transform="translate(5.52 0.974)" fill="#79ba50" fill-rule="evenodd"/>
+      <path id="Caminho_3" data-name="Caminho 3" d="M42.957,31.839A22.482,22.482,0,0,0,31.814,20.794c-5.765-2.665-13.953-4.069-17.925-1.453-4.748,3.1-2.325,9.447,2.325,10.368,3.827.775,5.62-2.035,10.658-2.471,5.135-.533,9.931-.388,16.084,4.6" transform="translate(6.977 11.069)" fill="#ef7e37" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

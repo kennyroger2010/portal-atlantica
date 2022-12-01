@@ -1,0 +1,12 @@
+<svg id="icon-usuario" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="23" viewBox="0 0 23 23">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_51" data-name="Retângulo 51" width="23" height="23" transform="translate(2057 170)" fill="#79ba50" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_de_máscara_4" data-name="Grupo de máscara 4" transform="translate(-2057 -170)" clip-path="url(#clip-path)">
+    <g id="Camada_1" data-name="Camada 1" transform="translate(2058.043 170)">
+      <path id="Caminho_40" data-name="Caminho 40" d="M9.529,12.543A6.332,6.332,0,0,1,4.2,5.677a6.284,6.284,0,0,1,12.5-.068,6.312,6.312,0,0,1-5.39,6.922,10.429,10.429,0,0,1,2.077.4,10.378,10.378,0,0,1,7.438,8.686c.059.346.05.7.08,1.056.02.231-.065.328-.307.322q-.758-.02-1.516,0c-.252.007-.328-.091-.336-.335A8.256,8.256,0,0,0,11.5,14.739a8.24,8.24,0,0,0-9,5.83,6.909,6.909,0,0,0-.335,2.056c0,.3-.109.385-.393.374C1.3,22.981.826,22.982.351,23c-.263.01-.358-.076-.348-.346A10.017,10.017,0,0,1,1.317,17.91,10.383,10.383,0,0,1,9.055,12.6c.158-.024.319-.041.478-.06Zm.941-10.375A4.062,4.062,0,0,0,6.336,6.258a4.121,4.121,0,1,0,8.242.06,4.06,4.06,0,0,0-4.106-4.15Z" fill="#79ba50"/>
+    </g>
+  </g>
+</svg>
