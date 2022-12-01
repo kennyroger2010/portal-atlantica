@@ -1,0 +1,7 @@
+<app-form [page]="page" [element]="cliente" [displayedFields]="displayedFields"></app-form>
+
+<mat-tab-group *ngIf="page.action != '3'" class="form" color="primary">
+    <mat-tab label="Títulos à Receber em Aberto">
+        <app-grid-detail [page]="grid" [displayedColumns]="displayedColumns"></app-grid-detail>
+    </mat-tab>
+</mat-tab-group>

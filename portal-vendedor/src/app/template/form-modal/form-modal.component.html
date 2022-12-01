@@ -1,0 +1,42 @@
+<mat-toolbar>
+    <span>{{title}} <label *ngIf="page.action != '3'" style="color: cadetblue">{{subTitle}}</label></span>
+    <span class="flexExpand"></span>
+    <div class="button-row">
+        <button mat-stroked-button color="warn" (click)='close()'>Cancelar</button>
+        <span> </span>
+        <button mat-stroked-button color="primary" (click)='save()' *ngIf="page.action != '6'">Confirmar</button>
+    </div>
+</mat-toolbar>
+
+<div class="loading-shade" *ngIf="isLoading">
+    <mat-spinner *ngIf="isLoading"></mat-spinner>
+</div>
+
+<form class="form">
+
+    <div class="row" *ngFor="let group of displayedFields">
+        <div class="col" *ngFor="let field of group.row">
+            <mat-form-field appearance="outline" class="full-width">
+
+                <mat-label>{{field.label}}</mat-label>
+
+                <input *ngIf="field.type=='input' && field.varType!='number'" matInput [name]="field.name"
+                    [(ngModel)]="element[field.name]" [type]="field.varType" [disabled]="disabled(field.disabled)"
+                    (change)="trigger(element, field)">
+
+                <input *ngIf="field.type=='input' && field.varType=='number'" matInput [name]="field.name"
+                    [(ngModel)]="element[field.name]" type="number" [disabled]="disabled(field.disabled)"
+                    (change)="trigger(element, field)">
+
+                <mat-select *ngIf="field.type=='select'" [(ngModel)]="element[field.name]" [name]="field.name"
+                    [disabled]="disabled(field.disabled)" (selectionChange)="trigger(element, field, field.dataset)">
+                    <mat-option *ngFor="let elem of field.dataset" [value]="elem.value">
+                        {{elem.viewValue}}
+                    </mat-option>
+                </mat-select>
+
+            </mat-form-field>
+        </div>
+    </div>
+
+</form>

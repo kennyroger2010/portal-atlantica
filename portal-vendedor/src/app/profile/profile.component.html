@@ -1,0 +1,29 @@
+<h1>Perfil</h1>
+<p>
+    <mat-form-field appearance="standard">
+        <mat-label>Nome Completo</mat-label>
+        <input matInput [(ngModel)]="user.nome" readonly="true">
+    </mat-form-field>
+</p>
+<p>
+    <mat-form-field appearance="standard">
+        <mat-label>Departamento</mat-label>
+        <input matInput [(ngModel)]="user.departamento" readonly="true">
+    </mat-form-field>
+</p>
+<p>
+    <mat-form-field appearance="standard">
+        <mat-label>Cargo</mat-label>
+        <input matInput [(ngModel)]="user.cargo" readonly="true">
+    </mat-form-field>
+</p>
+<p>
+    <mat-form-field appearance="standard">
+        <mat-label>E-Mail</mat-label>
+        <input matInput [(ngModel)]="user.email" readonly="true">
+    </mat-form-field>
+</p>
+
+<p>
+    <button mat-raised-button color="primary" (click)="onClose()">Fechar</button>
+</p>

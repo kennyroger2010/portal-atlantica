@@ -1,0 +1,55 @@
+mat-toolbar {
+    min-height: 80px;
+}
+
+mat-spinner {
+    top: -20%;
+}
+
+.flexExpand {
+    flex: 1 1 auto;
+}
+
+.button-row {
+    display: table-cell;
+}
+
+.button-row .mat-button-base {
+    margin: 8px 8px 8px 0;
+}
+
+.form {
+    margin: 28px 28px 28px 28px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.loading-shade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 56px;
+    height: 100%;
+    right: 0;
+    background: rgba(0, 0, 0, 0.15);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.col:last-child {
+    margin-right: 0;
+}

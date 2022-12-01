@@ -1,0 +1,10 @@
+<app-form #form [page]="page" [element]="pedido" [displayedFields]="displayedFields" (endOfProcess)="onReloadGrid()"
+    (buttonClick)="click($event)">
+</app-form>
+
+<mat-tab-group class="form" color="primary">
+    <mat-tab label="Produtos/Serviços">
+        <app-grid-edit #grid [page]="page" [pageForm]="pageForm" [displayedColumns]="displayedColumns"
+            [displayedFields]="displayedFieldsForm" [element]="produto" (endOfProcess)="onReloadGrid()"></app-grid-edit>
+    </mat-tab>
+</mat-tab-group>

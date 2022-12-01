@@ -1,0 +1,39 @@
+<mat-toolbar *ngIf="this.page.action < '5'">
+	<span class="flexExpand"></span>
+	<button mat-stroked-button (click)="create()" color="primary">
+		Incluir Item
+	</button>
+</mat-toolbar>
+
+<div class="container">
+
+	<table mat-table [dataSource]="dataSource">
+
+		<ng-container [matColumnDef]="column.field" *ngFor="let column of displayedColumns">
+			<th mat-header-cell *matHeaderCellDef> {{column.display}} </th>
+			<td mat-cell *matCellDef="let element">{{element[column.field]}} </td>
+		</ng-container>
+
+		<ng-container matColumnDef="ACOES">
+			<th mat-header-cell *matHeaderCellDef style="text-align: center;">Ações</th>
+			<td mat-cell *matCellDef="let row" style="text-align: center;">
+				<div class="button-row">
+					<button *ngIf="page.btnView" mat-stroked-button (click)="update(row, '6')" color="primary">
+						<mat-icon>visibility</mat-icon>
+					</button>
+					<button *ngIf="page.btnEdit" mat-stroked-button (click)="update(row, '4')" color="primary">
+						<mat-icon>edit</mat-icon>
+					</button>
+					<button *ngIf="page.btnDelete" mat-stroked-button (click)="update(row, '5')" color="warn">
+						<mat-icon>delete</mat-icon>
+					</button>
+				</div>
+			</td>
+		</ng-container>
+
+		<tr mat-header-row *matHeaderRowDef="columnsToDisplay;  sticky: true"></tr>
+		<tr mat-row *matRowDef="let row; columns: columnsToDisplay;"></tr>
+
+	</table>
+
+</div>
